@@ -1,4 +1,4 @@
-#FROM node:7.7.2-alpine
+#FROM node:7.7.2-alpinе
 FROM node:alpine
 WORKDIR /usr/app
 ADD package.json /usr/app/package.json
