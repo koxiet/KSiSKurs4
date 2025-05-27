@@ -1,28 +1,24 @@
-**Multiplayer UNO game with Node.js and Vue**
+# Многопользовательская игра UNO с использованием Node.js и Vue
 
-![Screenshot](https://raw.githubusercontent.com/houseofbits/nodejs-uno-game/master/dev-screen.png)
 
-[Check out YouTube video](https://www.youtube.com/watch?v=HPbMh1QAxb4)
+## Настройка среды разработки
+1. Установите  Node.js/npm
+2. Клонируйте репозиторий
 
-**Set up development environment**
-1) Install docker, docker-compose, Node.js/npm
-2) Clone repo
+3. Соберите клиент
+    ```bash
+    npm install
+    npm run build
+    ```
+4. Запустите Node сервер на localhost:80 
+    ```bash
+    node server.js
+    ```
 
-3) Build Vue client 
-``` 
-npm install
-npm run build
-```
-4) Run Node server on localhost:80 (might need to change some config to allow it to run on port 80, or change used port to 3000 in server.js)
-``` 
-node server.js
-``` 
-5) Or, to run dockerised Node.js app accessible in your local network
-``` 
-docker-compose up
-```
-**Used libraries/frameworks**
+    ```
+
+## Используемые библиотеки/фреймворки
 - Node.js
 - Vue.js
-- Gsap animation library
+- Библиотека анимаций Gsap
 - Font Awesome
